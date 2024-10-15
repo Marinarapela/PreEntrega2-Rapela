@@ -14,10 +14,10 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
         
-        <link rel="stylesheet" href="../style.css">
+        <link rel="stylesheet" href="../css/style.css">
         <title>Estamos Para Ir</title>
     </head>
-    <body id="body">
+    <body id="Body">
         <!--HEADER/NAV-->
         <nav class="navbar navbar-expand-lg custom-navbar">
             <a class="navbar-brand" href="#">Estamos Para Ir</a>
@@ -45,7 +45,8 @@
             </div>
         </nav>          
 <!--MAIN EPISODIOS-->
-<main>
+<main id="mainEpisodios">
+<section>
     <h2>Episodio 1 - CATAMARCA</h2>
     <section>
         <p>La pandemia nos tiene encerrados sin poder salir. Pero no desesperen, vamos a volver a viajar.
@@ -53,28 +54,18 @@
             Si alguna vez te preguntaste: Catamarca, qué onda? Escuchate este capítulo que te van a dar altas ganas de ir para allá. 
             Pisku y Esti lograron despertarnos la curiosidad de necarar para el noroeste argentino. Ya nos vamos a ver!
         </p>
+        <article>
+            <a href="https://open.spotify.com/episode/6YcjmD0qXUaOEVBKQjNt2H?si=xmS-IMziT66Q5pi94DlOAQ" target="_blank" class="linkEpisodio">ESCUCHALO ACÁ!</a>
+        </article>
     </section>
-    <div id="fotoCarrusel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="../Images/catamarca-1.jpeg" class="d-block w-100" alt="Catamarca 1">
-            </div>
-            <div class="carousel-item">
-                <img src="../Images/catamarca-2.jpg" class="d-block w-100" alt="Catamarca 2">
-            </div>
-            <div class="carousel-item">
-                <img src="../Images/catamarca-3.jpeg" class="d-block w-100" alt="Catamarca 3">
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#fotoCarrusel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Anterior</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#fotoCarrusel" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Siguiente</span>
-        </button>
+</section>
+<section>
+    <div class="contenedor">
+        <img src="/Images/catamarca-1.jpeg" alt="Catamarca1">
+        <img class="catamarca2" src="/Images/catamarca-2.jpg" alt="Catamarca2">
+        <img src="/Images/catamarca-3.jpeg" alt="Catamarca3">
     </div>
+</section>
 </main>
 <!--FOOTER-->
 <footer id="footer">
@@ -88,7 +79,9 @@
             </section>
         </footer>
 
-<!--FRAMEWORK BTS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    </body>
+<!-- jQuery y Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
 </html>

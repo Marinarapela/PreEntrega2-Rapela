@@ -14,10 +14,10 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
         
-        <link rel="stylesheet" href="../style.css">
+        <link rel="stylesheet" href="../css/style.css">
         <title>Estamos Para Ir</title>
     </head>
-    <body id="body">
+    <body id="Body">
         <!--HEADER/NAV-->
         <nav class="navbar navbar-expand-lg custom-navbar">
             <a class="navbar-brand" href="#">Estamos Para Ir</a>
@@ -45,22 +45,38 @@
             </div>
         </nav>        
 <!--MAIN EXPLORA-->
-<main>
+<main id="mainExplora">
     <section>
-        <h2>Más info para que planees tu viaje!</h2>
-        <p>Te compartimos las recomendaciones de nuestros invitados. Después de todo, qué mejor que alguien local para darte toda la info sobre su ciudad y que no te pierdad nada! </p>
+        <h2 class="titulo-explora">Más info para que planees tu viaje!</h2>
+        <p class="parrafo-explora">Te compartimos las recomendaciones de nuestros invitados. Después de todo, qué mejor que alguien local para darte toda la info sobre su ciudad y que no te pierdad nada! </p>
     </section>
+    <br><br>
     <section>
-        <h3>Catamarca</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ratione pariatur eligendi nihil eos sunt ducimus totam eveniet, optio nisi voluptas illum tempore blanditiis nostrum? Accusantium porro voluptate non nemo.</p>
+        <h3 class="titulo-provincia">Catamarca</h3>
+        <p class="parrafo-provincia">El territorio del norte argentino posee un sinfín de paisajes impactantes para recorrer. La capital de Catamarca es un punto de partida ideal para explorar la provincia, con una mezcla de religiosidad, arquitectura histórica y arte. La ciudad exhibe casas coloniales con techos rojos, avenidas que destacan el arte de la época y alberga celebraciones como la peregrinación a la Virgen del Valle. Incluso para aquellos menos religiosos, muchos lugares de interés, como iglesias, están abiertos al público para su exploración. Polo San Fernando: La zona comercial más grande de Catamarca es una vibrante área que alberga una amplia gama de museos, teatros, restaurantes y es conocida por la realización de eventos deportivos, artísticos y culturales. El epicentro de esta actividad es la Plaza 25 de Mayo, el principal paseo público de la ciudad, ubicado en el centro. Entre los lugares destacados en esta área se encuentran la Catedral Basílica Nuestra Señora del Valle, el Mercado Artesanal y la Casa de la Puna. Estos sitios contribuyen a la riqueza cultural y turística de la región, ofreciendo a los visitantes una experiencia completa en el corazón de Catamarca.</p>
     </section>
     <section>
         <picture>
             <img class="imgExplMapa" src="../Images/mapa-catamarca.png" alt="mapsCatamarca">
         </picture>
-        <a href="https://carta.menu/restaurants/san-fernando-del-valle-de-catamarca/la-fonda-de-carlitos">Dónde comer?</a>
-        <a href="https://htlcasinocatamarca.com.ar/">Dónde dormir?</a>
+        <a href="https://carta.menu/restaurants/san-fernando-del-valle-de-catamarca/la-fonda-de-carlitos" target="_blank">Dónde comer?</a>
+        <a href="https://htlcasinocatamarca.com.ar/" target="_blank">Dónde dormir?</a>
     </section>
+<article>
+        <h4>Los 10 atractivos imperdibles en Catamarca</h4>
+            <ul class="lista-top10">
+                <li class="items-top10">Campo de Piedra Pómez</li>
+                <li class="items-top10">Ruta de los Seismiles</li>
+                <li class="items-top10">Balcón del Pissis</li>
+                <li class="items-top10">Termas de Fiambalá</li>
+                <li class="items-top10">Volcán Galán</li>
+                <li class="items-top10">Cuesta del Portezuelo</li>
+                <li class="items-top10">Ruinas de el Shincal</li>
+                <li class="items-top10">Catedral Basílica Nuestra Señora del Valle</li>
+                <li class="items-top10">Ruta del Adobe</li>
+                <li class="items-top10">Dunas de Tatón</li>
+            </ul>
+</article>
 </main>
 <!--FOOTER-->
 <footer id="footer">
@@ -74,7 +90,9 @@
             </section>
         </footer>
 
-<!--FRAMEWORK BTS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    </body>
+<!-- jQuery y Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
 </html>

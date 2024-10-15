@@ -1,0 +1,58 @@
+/*ESTILO MAIN PÁGINA EPISODIOS*/
+#mainEpisodios{
+    section{
+        article{
+            a{
+                color: white;
+                font-size: 20px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+    section{
+        div{
+            img{
+                margin-top: 30px;
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 10px; 
+                height: 30px;
+                width: 30px;
+            }
+        }
+    }
+    #fotoCarrusel{
+        position: relative;
+        .carousel-inner{
+            .carousel-item.carousel-item.active{
+                .d-block.d-block.w-100{
+                    margin-left: 500px;
+                }
+            }
+            .carousel-item{
+                height: 500px;
+                width: 500px;
+            }
+        }
+        .carousel-control-prev{
+            width: 60%;
+            top: 50%; 
+            transform: translateY(-70%);
+            .carousel-control-prev-icon{
+                background-color: rgba(0, 0, 0, 0.5);
+                border-radius: 50%; 
+            }
+        }
+        .carousel-control-next{
+            width: 60%;
+            top: 50%; 
+            transform: translateY(-70%);
+            .carousel-control-next-icon{
+                background-color: rgba(0, 0, 0, 0.5);
+                border-radius: 50%; 
+            }
+        }
+    }
+}
+
+

@@ -1,0 +1,42 @@
+/*ESTILO MAIN PÁGINA EXPLORA*/
+#mainExplora{
+    section{
+        .parrafo-explora{
+            font-size: 20px;
+        }
+    }
+    article{
+        h4{
+            font-size: 23px;
+        }
+        .top10{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    section{
+        .parrafo-provincia{
+            float: left;
+            width: 40%;
+            font-size: 18px;
+            justify-content: space-around;
+            align-items: center;
+        }
+    }
+    section{
+        picture{
+            .imgExplMapa{
+                display: flex;
+                height: 400px;
+                width: 400px;
+                margin-left: 800px;
+            }
+        }
+        a {
+            display: flex;
+            color: white;
+            margin-left: 950px;
+            margin-top: 20px;
+        }
+    }
+}

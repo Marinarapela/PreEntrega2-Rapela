@@ -21,6 +21,7 @@
     color:white
 }
 
+
 /*ESTILO MAIN INDEX*/
 
 #main{

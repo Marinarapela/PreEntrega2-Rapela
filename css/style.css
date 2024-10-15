@@ -1,0 +1,146 @@
+@charset "UTF-8";
+/*ESTILOS RESET CSS*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  font-family: "Indie Flower", cursive;
+  background-color: black;
+}
+
+/*ESTILOS NAVBAR BTS*/
+#Body .custom-navbar {
+  height: 100px;
+}
+#Body .custom-navbar #navbarNav .navbar-nav .nav-item .nav-link {
+  color: white;
+}
+
+/*ESTILO FOOTER*/
+#footer {
+  color: white;
+  left: 1;
+  bottom: 0;
+  width: 100%;
+  text-align: right;
+  padding: 10px 0;
+  font-size: 30px;
+}
+#footer .footer__seguinos {
+  text-align: right;
+}
+
+/*ESTILO MAIN INDEX*/
+#main {
+  min-height: 100vh;
+}
+#main section .parrafo-index {
+  float: left;
+  width: 40%;
+  font-size: 25px;
+}
+#main section .video-index {
+  float: center;
+  height: auto;
+  width: 30%;
+  margin-left: 40px;
+}
+
+/*ESTILO MAIN PÁGINA CONOCENOS*/
+#mainConocenos section .parrafo-conocenos {
+  font-size: 20px;
+}
+#mainConocenos section .textpym {
+  float: left;
+  width: 40%;
+  font-size: 18px;
+  justify-content: space-around;
+  align-items: center;
+}
+#mainConocenos section picture .imgPeter {
+  float: center;
+  height: 400px;
+  width: 30%;
+  margin-left: 40px;
+}
+#mainConocenos section picture .imgMari {
+  float: center;
+  height: auto;
+  width: 30%;
+  margin-left: 40px;
+}
+
+/*ESTILO MAIN PÁGINA EPISODIOS*/
+#mainEpisodios section article a {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+#mainEpisodios #fotoCarrusel {
+  position: relative;
+}
+#mainEpisodios #fotoCarrusel .carousel-inner .carousel-item.carousel-item.active .d-block.d-block.w-100 {
+  margin-left: 500px;
+}
+#mainEpisodios #fotoCarrusel .carousel-inner .carousel-item {
+  height: 500px;
+  width: 500px;
+}
+#mainEpisodios #fotoCarrusel .carousel-control-prev {
+  width: 60%;
+  top: 50%;
+  transform: translateY(-70%);
+}
+#mainEpisodios #fotoCarrusel .carousel-control-prev .carousel-control-prev-icon {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+}
+#mainEpisodios #fotoCarrusel .carousel-control-next {
+  width: 60%;
+  top: 50%;
+  transform: translateY(-70%);
+}
+#mainEpisodios #fotoCarrusel .carousel-control-next .carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+}
+
+#mainEscribinos #formEscribinos .btn {
+  margin-top: 20px;
+}
+
+/*ESTILO MAIN PÁGINA EXPLORA*/
+#mainExplora section .parrafo-explora {
+  font-size: 20px;
+}
+#mainExplora article h4 {
+  font-size: 23px;
+}
+#mainExplora article .top10 {
+  display: flex;
+  flex-direction: column;
+}
+#mainExplora section .parrafo-provincia {
+  float: left;
+  width: 40%;
+  font-size: 18px;
+  justify-content: space-around;
+  align-items: center;
+}
+#mainExplora section picture .imgExplMapa {
+  display: flex;
+  height: 400px;
+  width: 400px;
+  margin-left: 800px;
+}
+#mainExplora section a {
+  display: flex;
+  color: white;
+  margin-left: 950px;
+  margin-top: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */

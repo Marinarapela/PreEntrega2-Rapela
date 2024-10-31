@@ -6,22 +6,32 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
-  color: white;
+  color: black;
   font-family: "Indie Flower", cursive;
-  background-color: black;
+  background-color: #fbb857;
 }
 
 /*ESTILOS NAVBAR BTS*/
 #Body .custom-navbar {
   height: 100px;
 }
+#Body .custom-navbar .navbar-brand {
+  font-weight: bold;
+  margin-left: 600px;
+  font-size: 25px;
+}
 #Body .custom-navbar #navbarNav .navbar-nav .nav-item .nav-link {
-  color: white;
+  color: black;
+  font: 15px;
+}
+#Body .custom-navbar #navbarNav .navbar-nav .nav-item .nav-link:hover {
+  font-weight: bold;
+  font-size: 20px;
 }
 
 /*ESTILO FOOTER*/
 #footer {
-  color: white;
+  color: black;
   left: 1;
   bottom: 0;
   width: 100%;
@@ -37,10 +47,14 @@
 #main {
   min-height: 100vh;
 }
+#main h1 {
+  margin-left: 20px;
+}
 #main section .parrafo-index {
   float: left;
   width: 40%;
   font-size: 25px;
+  margin-left: 20px;
 }
 #main section .video-index {
   float: center;
@@ -50,15 +64,27 @@
 }
 
 /*ESTILO MAIN PÁGINA CONOCENOS*/
+#mainConocenos h2 {
+  margin-left: 20px;
+}
 #mainConocenos section .parrafo-conocenos {
   font-size: 20px;
+  margin-left: 20px;
+}
+#mainConocenos section h3 {
+  margin-left: 20px;
+  margin-top: 50px;
+}
+#mainConocenos section h3:hover {
+  font-size: 40px;
 }
 #mainConocenos section .textpym {
   float: left;
   width: 40%;
   font-size: 18px;
-  justify-content: space-around;
   align-items: center;
+  margin-left: 20px;
+  margin-top: 60px;
 }
 #mainConocenos section picture .imgPeter {
   float: center;
@@ -74,54 +100,72 @@
 }
 
 /*ESTILO MAIN PÁGINA EPISODIOS*/
+#mainEpisodios section h2 {
+  margin-left: 20px;
+}
+#mainEpisodios section p {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 18px;
+}
 #mainEpisodios section article a {
-  color: white;
+  color: black;
   font-size: 20px;
   margin-bottom: 10px;
+  margin-left: 70px;
+  font-weight: bold;
 }
-#mainEpisodios #fotoCarrusel {
-  position: relative;
+#mainEpisodios section article a:hover {
+  font-size: 25px;
 }
-#mainEpisodios #fotoCarrusel .carousel-inner .carousel-item.carousel-item.active .d-block.d-block.w-100 {
-  margin-left: 500px;
+#mainEpisodios section div img {
+  margin-top: 30px;
+  margin-left: 20px;
+  gap: 10px;
+  height: 250px;
+  width: 250px;
 }
-#mainEpisodios #fotoCarrusel .carousel-inner .carousel-item {
-  height: 500px;
-  width: 500px;
-}
-#mainEpisodios #fotoCarrusel .carousel-control-prev {
-  width: 60%;
-  top: 50%;
-  transform: translateY(-70%);
-}
-#mainEpisodios #fotoCarrusel .carousel-control-prev .carousel-control-prev-icon {
-  background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 50%;
-}
-#mainEpisodios #fotoCarrusel .carousel-control-next {
-  width: 60%;
-  top: 50%;
-  transform: translateY(-70%);
-}
-#mainEpisodios #fotoCarrusel .carousel-control-next .carousel-control-next-icon {
-  background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 50%;
+#mainEpisodios section div img:hover {
+  height: 400px;
+  width: 400px;
 }
 
+#mainEscribinos p {
+  font-size: 20px;
+}
 #mainEscribinos #formEscribinos .btn {
   margin-top: 20px;
 }
 
 /*ESTILO MAIN PÁGINA EXPLORA*/
+#mainExplora {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+#mainExplora section h2 {
+  margin-left: 20px;
+}
 #mainExplora section .parrafo-explora {
   font-size: 20px;
+  margin-left: 20px;
 }
 #mainExplora article h4 {
   font-size: 23px;
+  margin-left: 20px;
+}
+#mainExplora article h4:hover {
+  font-size: 30px;
 }
 #mainExplora article .top10 {
   display: flex;
   flex-direction: column;
+}
+#mainExplora section h3 {
+  margin-left: 20px;
+}
+#mainExplora section h3:hover {
+  font-size: 40px;
 }
 #mainExplora section .parrafo-provincia {
   float: left;
@@ -129,6 +173,7 @@
   font-size: 18px;
   justify-content: space-around;
   align-items: center;
+  margin-left: 20px;
 }
 #mainExplora section picture .imgExplMapa {
   display: flex;
@@ -138,7 +183,7 @@
 }
 #mainExplora section a {
   display: flex;
-  color: white;
+  color: black;
   margin-left: 950px;
   margin-top: 20px;
 }

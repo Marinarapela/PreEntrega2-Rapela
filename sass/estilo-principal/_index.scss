@@ -2,6 +2,9 @@
 
 #main{
     min-height: 100vh;
+    h1{
+        margin-left: 20px;
+    }
     section{
         .titulo-index{
             
@@ -10,6 +13,7 @@
             float: left;
             width: 40%;
             font-size: 25px;
+            margin-left: 20px;
         }
         .video-index{
             float:center;

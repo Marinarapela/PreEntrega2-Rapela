@@ -1,17 +1,30 @@
 /*ESTILO MAIN PÁGINA CONOCENOS*/
 #mainConocenos{
+    h2{
+        margin-left: 20px;
+    }
     section{
         .parrafo-conocenos{
             font-size: 20px;
+            margin-left: 20px;
         }
     }
     section{
+        h3{
+            margin-left: 20px;
+            margin-top: 50px;
+        }
+        h3:hover{
+            font-size: 40px;
+
+        }
         .textpym{
             float: left;
             width: 40%;
             font-size: 18px;
-            justify-content: space-around;
             align-items: center;
+            margin-left: 20px;
+            margin-top: 60px;
         }
         picture{
             .imgPeter{

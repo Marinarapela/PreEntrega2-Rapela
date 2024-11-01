@@ -46,5 +46,22 @@
         }
     }
 }
+@media screen and (max-width: 576px) {
+    #mainConocenos section {
+        .textpym {
+            float: none; 
+            width: 100%; 
+            margin-left: 20px; 
+            margin-top: 20px;
+        }
 
-
+        picture {
+            .imgPeter, .imgMari {
+                display: block; 
+                height: auto; 
+                width: 80%; 
+                margin: 20px auto;
+            }
+        }
+    }
+}

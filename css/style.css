@@ -29,6 +29,13 @@
   font-size: 20px;
 }
 
+@media screen and (max-width: 576px) {
+  #Body .custom-navbar .navbar-brand {
+    font-weight: bold;
+    margin-left: 200px;
+    font-size: 20px;
+  }
+}
 /*ESTILO FOOTER*/
 #footer {
   color: black;
@@ -43,6 +50,20 @@
   text-align: right;
 }
 
+@media screen and (max-width: 576px) {
+  #footer {
+    color: black;
+    left: 1;
+    bottom: 0;
+    width: 100%;
+    text-align: right;
+    padding: 10px 0;
+    font-size: 18px;
+  }
+  #footer .footer__seguinos {
+    text-align: right;
+  }
+}
 /*ESTILO MAIN INDEX*/
 #main {
   min-height: 100vh;
@@ -63,6 +84,20 @@
   margin-left: 40px;
 }
 
+@media screen and (max-width: 576px) {
+  #main section .parrafo-index {
+    float: none;
+    width: 100%;
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+  #main section .video-index {
+    display: block;
+    width: 100%;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+}
 /*ESTILO MAIN PÁGINA CONOCENOS*/
 #mainConocenos h2 {
   margin-left: 20px;
@@ -99,6 +134,20 @@
   margin-left: 40px;
 }
 
+@media screen and (max-width: 576px) {
+  #mainConocenos section .textpym {
+    float: none;
+    width: 100%;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  #mainConocenos section picture .imgPeter, #mainConocenos section picture .imgMari {
+    display: block;
+    height: auto;
+    width: 80%;
+    margin: 20px auto;
+  }
+}
 /*ESTILO MAIN PÁGINA EPISODIOS*/
 #mainEpisodios section h2 {
   margin-left: 20px;
@@ -186,6 +235,23 @@
   color: black;
   margin-left: 950px;
   margin-top: 20px;
+}
+
+@media screen and (max-width: 576px) {
+  #mainExplora section picture .imgExplMapa {
+    display: block;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  .top10 {
+    margin-bottom: 20px;
+  }
+  #mainExplora section a {
+    display: block;
+    margin-left: 70px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

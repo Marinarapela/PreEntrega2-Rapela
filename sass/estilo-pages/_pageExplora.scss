@@ -58,3 +58,22 @@
         }
     }
 }
+@media screen and (max-width: 576px) {
+    #mainExplora section picture {
+        .imgExplMapa {
+            display: block; 
+            margin-left: 0; 
+            margin-top: 20px; 
+        }
+    }
+    .top10 {
+        margin-bottom: 20px; 
+    }
+
+#mainExplora section a {
+    display: block; 
+    margin-left: 70px; 
+    margin-top: 20px; 
+    margin-bottom: 25px;
+}
+}

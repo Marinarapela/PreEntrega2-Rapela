@@ -23,4 +23,14 @@
         }
     }
 }
-
+@media screen and (max-width: 576px) {
+    #Body{
+        .custom-navbar{
+            .navbar-brand{
+                font-weight: bold;
+                margin-left: 200px;
+                font-size: 20px;
+            }
+        }
+    }
+}
